@@ -1,0 +1,41 @@
+/* Basic styling for Weather App */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #0066cc;
+  color: white;
+  cursor: pointer;
+}
+
+#weather {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.loading {
+  font-style: italic;
+  color: yellow;
+}
+
+.error {
+  color: red;
+}
